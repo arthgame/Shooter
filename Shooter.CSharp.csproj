@@ -74,7 +74,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Interfaces\IMovement.cs" />
     <Compile Include="Assets\Scripts\juna8001\BasicMovement.cs" />
-    <Compile Include="Assets\Scripts\juna8001\InputCntroller.cs" />
+    <Compile Include="Assets\Scripts\juna8001\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\juna8001\InputController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\README.txt" />

@@ -27,6 +27,12 @@ public class BasicMovement : MonoBehaviour, IMovement
             direction = value.normalized;
         }
     }
+    
+    public float Rotation
+    {
+        get { return transform.eulerAngles.y; }
+        set { transform.eulerAngles = new Vector3(0, value, 0); }
+    }
 
     public bool IsMoving
     {
