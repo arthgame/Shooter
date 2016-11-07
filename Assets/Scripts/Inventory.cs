@@ -48,6 +48,6 @@ public class Inventory : MonoBehaviour {
                 return;
             }
         currentIndex = items.Length;
-        print("Inventory is full");
+        Debug.Log("Inventory is full");
     }
 }
