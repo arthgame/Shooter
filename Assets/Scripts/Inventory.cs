@@ -34,7 +34,7 @@ public class Inventory : MonoBehaviour {
     {
         int numberOfItems = 0;
         for (int i = 0; i < items.Length; i++)
-            if (items[i])
+            if (items[i] != null)
                 numberOfItems++;
         return numberOfItems;
     }
@@ -42,7 +42,7 @@ public class Inventory : MonoBehaviour {
     private void CheckFirstEmptySlot()
     {
         for (int i = 0; i < items.Length; i++)
-            if (!items[i])
+            if (items[i] == null)
             {
                 currentIndex = i;
                 return;

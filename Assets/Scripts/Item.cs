@@ -3,5 +3,5 @@ using System.Collections;
 
 public interface Item{
 
-    public string nameOfItem;
+    string nameOfItem { get; }
 }
